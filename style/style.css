@@ -76,7 +76,7 @@ li {
     --bg: var(--cornsilk);
     --fontColor: var(--black);
     --btnBg: var(--black);
-    --btnFontColor: var(--white);
+    --btnFontColor: var(--cornsilk);
   }
   
  .dark-theme {
