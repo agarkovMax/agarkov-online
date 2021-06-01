@@ -1,7 +1,8 @@
 :root {
     --green: #00FF00;
     --cornsilk: cornsilk;
-    --black: #000000;
+    --darkpurple: #322d33;
+    --black: #000;  
   }
 
 * {
@@ -20,7 +21,7 @@ body {
 }
 
 h1 {
-    color:rgb(45, 45, 155);
+    color:rgb(65, 65, 158);
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -80,9 +81,21 @@ li {
   }
   
  .dark-theme {
-    --bg: var(--black);
+    --bg: var(--darkpurple);
     --fontColor: var(--green);
     --btnBg: var(--cornsilk);
     --btnFontColor: var(--black);
   }
 
+.profile {
+    float: right;
+    size: 50%;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.other-text {
+    position: relative;
+}
